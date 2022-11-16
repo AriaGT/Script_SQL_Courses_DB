@@ -241,6 +241,8 @@ INSERT INTO user_roles (
 	'73483f01-5ca1-460a-8ec6-f533ae5cf56f'
 );
 
+/* CREAR JOIN QUE TRAIGA COMO TABLA PRIMARIA LOS CURSOS Y SUS RELACIONES */
+
 SELECT 
 	courses.title AS course_title,
 	categories."name" AS category,
